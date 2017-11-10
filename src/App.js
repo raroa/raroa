@@ -4,14 +4,16 @@ import React, { Component } from 'react';
 import Externals from './Externals';
 //import { test } from './assets/js/test';
 
-class App extends Component {
-    componentDidMount () {
+ componentDidMount () {
         var loadScript = function(src) {
             var tag = document.createElement('script');
-            tag.async = false;
+            tag.async = true;
             tag.src = src;
+            document.body.appendChild(tag);
             //document.getElementsByTagName('body').appendChild(tag);
           };
+
+        
         loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
         loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/plugins/ScrollToPlugin.min.js');
         loadScript('%PUBLIC_URL%/assets/bower_components/tether/dist/js/tether.min.js');
@@ -25,14 +27,14 @@ class App extends Component {
         loadScript('%PUBLIC_URL%/assets/bower_components/photoswipe/dist/photoswipe.min.js');
         loadScript('%PUBLIC_URL%/assets/bower_components/photoswipe/dist/photoswipe-ui-default.min.js');
         loadScript('%PUBLIC_URL%/assets/bower_components/jquery-form/dist/jquery.form.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
-        //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
+        loadScript('%PUBLIC_URL%/assets/bower_components/jquery-validation/dist/jquery.validate.min.js');
+        loadScript('%PUBLIC_URL%/assets/bower_components/hammer.js/hammer.min.js');
+        loadScript('%PUBLIC_URL%/assets/bower_components/social-likes/dist/social-likes.min.js');
+        loadScript('%PUBLIC_URL%/assets/bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js');
+        loadScript('%PUBLIC_URL%/assets/bower_components/keymaster/keymaster.js');
+        loadScript('%PUBLIC_URL%/assets/bower_components/prism/prism.js');
+        loadScript('%PUBLIC_URL%/assets/js/snow.min.js');
+        loadScript('%PUBLIC_URL%/assets/js/snow-init.js');
         //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
         //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
         //loadScript('%PUBLIC_URL%/assets/bower_components/gsap/src/minified/TweenMax.min.js');
