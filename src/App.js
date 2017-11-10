@@ -4,7 +4,9 @@ import React, { Component } from 'react';
 import Externals from './Externals';
 //import { test } from './assets/js/test';
 
- componentDidMount () {
+class App extends Component {
+
+ componentDidMount() {
         var loadScript = function(src) {
             var tag = document.createElement('script');
             tag.async = true;
