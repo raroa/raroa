@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { IndexSlogan } from '../IndexSlogan/IndexSlogan';
-import { IndexSlogan } from '../MainIndex/MainIndex';
-import { IndexSlogan } from '../MainPortfolio/MainPortfolio';
+import { MainIndex } from '../MainIndex/MainIndex';
+import { MainPortfolio } from '../MainPortfolio/MainPortfolio';
+import { MainAboutUs } from '../MainAboutUs/MainAboutUs';
 import { Footer } from '../Footer/Footer';
 
 export class Main extends Component {
@@ -30,9 +31,10 @@ export class Main extends Component {
                          END: Filter */}
             
                         <IndexSlogan />
-            
-                        <MainIndex />
-            
+           
+                        <MainPortfolio />
+                         
+                        <MainAboutUs />
                         <div className="nk-gap-4"></div>
                     </div>
             
