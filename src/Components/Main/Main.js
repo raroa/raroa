@@ -3,6 +3,9 @@ import { IndexSlogan } from '../IndexSlogan/IndexSlogan';
 import { MainIndex } from '../MainIndex/MainIndex';
 import { MainPortfolio } from '../MainPortfolio/MainPortfolio';
 import { MainAboutUs } from '../MainAboutUs/MainAboutUs';
+import { MainTech } from '../MainTech/MainTech';
+import { MainServices } from '../MainServices/MainServices';
+import { MainContact } from '../MainContact/MainContact';
 import { Footer } from '../Footer/Footer';
 
 export class Main extends Component {
@@ -34,10 +37,18 @@ export class Main extends Component {
            
                         <MainPortfolio />
                          
-                        <MainAboutUs />
+                        
                         <div className="nk-gap-4"></div>
                     </div>
-            
+
+                    <MainTech />
+                         
+                        <MainAboutUs />
+                        <div className="nk-gap-4"></div>
+                    
+                         <MainServices />
+
+                         <MainContact />
                     {/* START: Pagination 
                     <div className="nk-pagination nk-pagination-center">
                         <a href="#">Load More Works</a>
