@@ -9,6 +9,10 @@ import { MainContact } from '../MainContact/MainContact';
 import { Footer } from '../Footer/Footer';
 
 export class Main extends Component {
+    constructor(props) {
+        
+    }
+
     render() {
         return (
             <div className="nk-main">

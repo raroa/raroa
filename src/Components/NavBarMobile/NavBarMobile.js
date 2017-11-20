@@ -38,18 +38,6 @@ export class NavBarMobile extends Component {
                 </div>
             </div>
         </div>
-        <div className="nk-nav-row">
-            <div className="container">
-                <div className="nk-nav-social">
-                    <ul>
-                        <li><a href="https://twitter.com/nkdevv"><i className="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/unvabdesign/"><i className="fa fa-facebook"></i></a></li>
-                        <li><a href="https://dribbble.com/_nK"><i className="fa fa-dribbble"></i></a></li>
-                        <li><a href="https://www.instagram.com/unvab/"><i className="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
 </nav>
 
