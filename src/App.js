@@ -5,6 +5,14 @@ import { Header } from './Components/Header/Header';
 import { Main } from './Components/Main/Main';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentPage: "home"
+    }
+
+    this.takeAction = this.takeAction.bind(this);
+  }
 
  componentDidMount() {
         var loadScript = function(src) {
@@ -39,7 +47,14 @@ class App extends Component {
         loadScript('./assets/js/snow-init.js');
         loadScript('http://web-design-timisoara.ro/test/test.js');
 
-    }
+ }
+
+ takeAction(theId){
+  // console.log(theId);
+    this.setState({
+      currentPage: theId
+    })
+ }
       
       
   render() {
@@ -47,7 +62,7 @@ class App extends Component {
     return (
         <div>
       
-    <Header />
+    <Header onClick={this.takeAction} className={'the-class'} />
    
   {/*
       START: Navbar Mobile
@@ -62,7 +77,7 @@ class App extends Component {
     {/* END: Navbar Mobile */}
 
 
-    <Main />
+    <Main changePage={this.state.currentPage} />
     
     </div>
 

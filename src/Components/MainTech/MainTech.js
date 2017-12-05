@@ -11,7 +11,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Mockup">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-3.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-7-sm.jpg')`}}></div>
                         </div>
@@ -27,7 +27,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Print">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-4.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-4.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-4-sm.jpg')`}}></div>
                         </div>
@@ -43,7 +43,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Branding">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-5.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-5.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-5-sm.jpg')`}}></div>
                         </div>
@@ -59,7 +59,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Design">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-3.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-9-sm.jpg')`}}></div>
                         </div>
@@ -75,7 +75,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Design">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-3.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-3-sm.jpg')`}}></div>
                         </div>
@@ -91,7 +91,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Print">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-3.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-8-sm.jpg')`}}></div>
                         </div>
@@ -107,7 +107,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Branding">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-2.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-2.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-2-sm.jpg')`}}></div>
                         </div>
@@ -123,7 +123,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Photography">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-1.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-1.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-6-sm.jpg')`}}></div>
                         </div>
@@ -139,7 +139,7 @@ export class MainTech extends Component {
 
                 <div className="nk-isotope-item" data-filter="Photography">
                     <div className="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
-                        <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <a href="work-single-3.html" className="nk-portfolio-item-link"></a>
                         <div className="nk-portfolio-item-image">
                             <div style={{backgroundImage: `url('assets/images/portfolio-12-sm.jpg')`}}></div>
                         </div>
@@ -154,7 +154,7 @@ export class MainTech extends Component {
 
             </div>
 
-            <div class="nk-gap-4"></div>
+            <div className="nk-gap-4"></div>
         </div>
         );
     }

@@ -21,7 +21,7 @@ export class MainAboutUs extends Component {
                             <div style={{backgroundImage: `url('assets/images/header-about-us.jpg')`}}></div>
                             <div className="bg-image-overlay" style={{backgroundColor: `rgba(12, 12, 12, 0.6)`}}></div>
                         </div>
-                        <div class="nk-header-table">
+                        <div className="nk-header-table">
                             <div className="nk-header-table-cell">
                                 <div className="container">
             
@@ -68,7 +68,7 @@ export class MainAboutUs extends Component {
                                         <p>Vestibulum gravida volutpat ipsum non ultrices. Praesent vitae risus. Ut a erat ullamcorper, accumsan felis lacinia, hendrerit. Vivamus scelerisque posuere arcu, eu malesuada purus.</p>
                                         <p>Suspendisse hendrerit mi vel sapien ultrices gravida. Proin non vehicula, pulvinar lorem vitae, pharetra augue.</p>
             
-                                        <img src="assets/images/about-me-signature.png" alt="" class="nk-img-fit" />
+                                        <img src="assets/images/about-me-signature.png" alt="" className="nk-img-fit" />
                                     </div>
             
                                     <div className="nk-gap-4"></div>

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export class IndexSlogan extends Component {
     render() {
         return (
-        <div class="row">
+        <div className="row">
         <div className="col-lg-8 offset-lg-2 text-center">
             <div className="nk-gap-6"></div>
             <div className="nk-gap-3"></div>

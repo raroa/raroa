@@ -10,10 +10,12 @@ import { Footer } from '../Footer/Footer';
 
 export class Main extends Component {
     constructor(props) {
-        
+        super(props);
     }
 
     render() {
+        var pageName = this.props.changePage;
+        console.log(pageName);
         return (
             <div className="nk-main">
             
@@ -36,23 +38,24 @@ export class Main extends Component {
                             <li data-filter="Mockup">Mockup</li>
                         </ul>
                          END: Filter */}
-            
-                        <IndexSlogan />
-           
-                        <MainPortfolio />
+
+                        {pageName === "home" && <IndexSlogan />}
+                        {pageName === "home" && <MainIndex />}
+
+                        
+                    </div>
+
+                    {pageName === "tech" && <MainTech />}
+                    {pageName === "about" && <MainAboutUs />}
+                    {pageName === "services" && <MainServices />}
+                    {pageName === "contact" && <MainContact />}
                          
                         
                         <div className="nk-gap-4"></div>
-                    </div>
-
-                    <MainTech />
-                         
-                        <MainAboutUs />
-                        <div className="nk-gap-4"></div>
                     
-                         <MainServices />
+                         
 
-                         <MainContact />
+                         
                     {/* START: Pagination 
                     <div className="nk-pagination nk-pagination-center">
                         <a href="#">Load More Works</a>

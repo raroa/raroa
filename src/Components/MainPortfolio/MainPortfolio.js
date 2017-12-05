@@ -8,7 +8,7 @@ export class MainPortfolio extends Component {
             
                             <div className="nk-isotope-item" data-filter="Branding">
                                 <div className="nk-portfolio-item nk-portfolio-item-info-style-4">
-                                    <a href="work-single-5.html" class="nk-portfolio-item-link"></a>
+                                    <a href="work-single-5.html" className="nk-portfolio-item-link"></a>
                                     <div className="nk-portfolio-item-image">
                                         <div style={{backgroundImage: `url('assets/images/portfolio-5-sm.jpg')`}}></div>
                                     </div>
@@ -24,7 +24,7 @@ export class MainPortfolio extends Component {
             
                             <div className="nk-isotope-item" data-filter="Print">
                                 <div className="nk-portfolio-item nk-portfolio-item-info-style-4">
-                                    <a href="work-single-4.html" class="nk-portfolio-item-link"></a>
+                                    <a href="work-single-4.html" className="nk-portfolio-item-link"></a>
                                     <div className="nk-portfolio-item-image">
                                         <div style={{backgroundImage: `url('assets/images/portfolio-4-sm.jpg')`}}></div>
                                     </div>
@@ -40,7 +40,7 @@ export class MainPortfolio extends Component {
             
                             <div className="nk-isotope-item" data-filter="Photography">
                                 <div className="nk-portfolio-item nk-portfolio-item-info-style-4">
-                                    <a href="work-single-1.html" class="nk-portfolio-item-link"></a>
+                                    <a href="work-single-1.html" className="nk-portfolio-item-link"></a>
                                     <div className="nk-portfolio-item-image">
                                         <div style={{backgroundImage: `url('assets/images/portfolio-6-sm.jpg')`}}></div>
                                     </div>
@@ -56,7 +56,7 @@ export class MainPortfolio extends Component {
             
                             <div className="nk-isotope-item" data-filter="Branding">
                                 <div className="nk-portfolio-item nk-portfolio-item-info-style-4">
-                                    <a href="work-single-2.html" class="nk-portfolio-item-link"></a>
+                                    <a href="work-single-2.html" className="nk-portfolio-item-link"></a>
                                     <div className="nk-portfolio-item-image">
                                         <div style={{backgroundImage: `url('assets/images/portfolio-2-sm.jpg')`}}></div>
                                     </div>
@@ -72,7 +72,7 @@ export class MainPortfolio extends Component {
             
                             <div className="nk-isotope-item" data-filter="Mockup">
                                 <div className="nk-portfolio-item nk-portfolio-item-info-style-4">
-                                    <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                                    <a href="work-single-3.html" className="nk-portfolio-item-link"></a>
                                     <div className="nk-portfolio-item-image">
                                         <div style={{backgroundImage: `url('assets/images/portfolio-7-sm.jpg')`}}></div>
                                     </div>
@@ -88,7 +88,7 @@ export class MainPortfolio extends Component {
             
                             <div className="nk-isotope-item" data-filter="Design">
                                 <div className="nk-portfolio-item nk-portfolio-item-info-style-4">
-                                    <a href="work-single-3.html" class="nk-portfolio-item-link"></a>
+                                    <a href="work-single-3.html" className="nk-portfolio-item-link"></a>
                                     <div className="nk-portfolio-item-image">
                                         <div style={{backgroundImage: `url('assets/images/portfolio-9-sm.jpg')`}}></div>
                                     </div>

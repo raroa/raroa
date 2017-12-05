@@ -1,26 +1,21 @@
 import React, { Component } from 'react';
 
 export class Header extends Component {
-
-    handleHomeClick() {
-
+    constructor(props) {
+        super(props);
+        this.state = {
+          
+        }
+        this.handleClick = this.handleClick.bind(this);
     }
 
-    handleTechClick() {
-        
-            }
-
-    handleAboutClick() {
-
+    handleClick(e) {
+        const action = e.target.id;
+        this.props.onClick(action);
+        e.preventDefault();
+        return false;
     }
 
-    handleServicesClick() {
-        
-            }
-
-    handleContactClick() {
-        
-            }
 
     render() {
         return (
@@ -48,31 +43,31 @@ export class Header extends Component {
     
                         <ul className="nk-nav nk-nav-right hidden-md-down" data-nav-mobile="#nk-nav-mobile">
     
-                            <li className=" nk-drop-item">
-                                <a onClick={this.handleClick} href="home">
+                            <li className="nk-drop-item">
+                                <a id="home" className={this.props.className} onClick={this.handleClick} href="home">
                     Home
                     
                 </a>
                             </li>
                             <li className="nk-drop-item">
-                                <a onClick={this.handleTechClick} href="technologies">
+                                <a id="tech" onClick={this.handleClick} href="technologies">
                     Technologies
                     
                 </a>
                         </li>
                             <li>
-                                <a onClick={this.handleAboutClick} href="about">
+                                <a id="about" onClick={this.handleClick} href="about">
                     About
                     
                 </a>
                             </li>
                             <li>
-                                <a onClick={this.handleServicesClick} href="services">
+                                <a id="services" onClick={this.handleClick} href="services">
                     Services
                 </a>
                             </li>
                             <li>
-                                <a onClick={this.handleContactClick} href="contact">
+                                <a id="contact" onClick={this.handleClick} href="contact">
                     Contact
                     
                 </a>
